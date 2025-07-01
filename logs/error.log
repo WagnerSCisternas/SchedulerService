@@ -1,0 +1,210 @@
+2025-07-01 18:53:39.232 [               ] ERROR [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-01 18:56:07.064 [ucYKaUWGywS2mQ8] ERROR [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Falha ao obter token JWT. Não será possível buscar tarefas.
+2025-07-01 19:11:05.050 [46u2OQwqcse0QA6] ERROR [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Falha ao obter token JWT. Não será possível buscar tarefas.
+2025-07-01 19:36:19.406 [w8o4y8sikec8o6W] ERROR [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Token JWT não foi obtido ou está vazio após parsing.
+2025-07-01 19:36:19.406 [w8o4y8sikec8o6W] ERROR [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Falha ao obter token JWT. Não será possível buscar tarefas.
+2025-07-01 19:37:01.108 [EmSO6UgsOocmIQc] ERROR [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Erro de resposta do WebClient ao buscar tarefas (Status: 200 OK): 
+
+org.springframework.web.reactive.function.client.WebClientResponseException: 200 OK from GET http://localhost:8080/tasks, but response failed with cause: org.springframework.web.reactive.function.UnsupportedMediaTypeException: Content type 'text/html;charset=UTF-8' not supported for bodyType=com.wasc.schedulerService.model.Task
+	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:337)
+	at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106)
+	at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onError(FluxOnErrorReturn.java:199)
+	at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onError(FluxDefaultIfEmpty.java:156)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onError(FluxOnAssembly.java:544)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onError(FluxMapFuseable.java:142)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onError(FluxMapFuseable.java:340)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onError(FluxFilterFuseable.java:382)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onError(MonoCollect.java:135)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.Operators.error(Operators.java:198)
+	at reactor.netty.channel.FluxReceive.startReceiver(FluxReceive.java:189)
+	at reactor.netty.channel.FluxReceive.subscribe(FluxReceive.java:145)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:68)
+	at reactor.netty.ByteBufFlux.subscribe(ByteBufFlux.java:340)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onError(FluxOnAssembly.java:544)
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onError(FluxConcatArray.java:186)
+	at reactor.core.publisher.Operators.error(Operators.java:198)
+	at reactor.core.publisher.FluxError.subscribe(FluxError.java:43)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8891)
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:238)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89)
+	at reactor.core.publisher.FluxTakeWhile$TakeWhileSubscriber.onComplete(FluxTakeWhile.java:122)
+	at reactor.core.publisher.FluxTakeWhile$TakeWhileSubscriber.onNext(FluxTakeWhile.java:96)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:377)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:435)
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:843)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:104)
+		at reactor.core.publisher.Mono.block(Mono.java:1779)
+		at com.wasc.schedulerService.api.TaskApiClient.getTasksByDueDateRange(TaskApiClient.java:163)
+		at com.wasc.schedulerService.service.TaskAlertScheduler.checkTasksAndSendAlerts(TaskAlertScheduler.java:42)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+		at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+		at io.micrometer.observation.Observation.observe(Observation.java:498)
+		at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+		at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85)
+		at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at net.wenzuo.atom.core.core.TraceIdTaskDecorator.lambda$decorate$0(TraceIdTaskDecorator.java:28)
+		at org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler$DelegatingRunnableScheduledFuture.run(ThreadPoolTaskScheduler.java:508)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		... 1 common frames omitted
+Caused by: org.springframework.web.reactive.function.UnsupportedMediaTypeException: Content type 'text/html;charset=UTF-8' not supported for bodyType=com.wasc.schedulerService.model.Task
+	at org.springframework.web.reactive.function.BodyExtractors.readWithMessageReaders(BodyExtractors.java:205)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Body from GET http://localhost:8080/tasks?dueDateFrom=2025-07-01&dueDateTo=2025-07-02 [DefaultClientResponse]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.BodyExtractors.readWithMessageReaders(BodyExtractors.java:205)
+		at org.springframework.web.reactive.function.BodyExtractors.lambda$toFlux$5(BodyExtractors.java:113)
+		at org.springframework.web.reactive.function.client.DefaultClientResponse.body(DefaultClientResponse.java:135)
+		at org.springframework.web.reactive.function.client.DefaultClientResponse.bodyToFlux(DefaultClientResponse.java:162)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.lambda$bodyToFlux$4(DefaultWebClient.java:597)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onNext(MonoFlatMapMany.java:163)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+		at reactor.core.publisher.FluxDoFinally$DoFinallySubscriber.onNext(FluxDoFinally.java:113)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:251)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2570)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:136)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onSubscribeInner(MonoFlatMapMany.java:150)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onSubscribe(MonoFlatMapMany.java:246)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onSubscribe(FluxContextWrite.java:101)
+		at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+		at reactor.core.publisher.Flux.subscribe(Flux.java:8891)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onNext(MonoFlatMapMany.java:196)
+		at reactor.core.publisher.SerializedSubscriber.onNext(SerializedSubscriber.java:99)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onNext(FluxRetryWhen.java:178)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.success(MonoCreate.java:176)
+		at reactor.netty.http.client.HttpClientConnect$HttpIOHandlerObserver.onStateChange(HttpClientConnect.java:449)
+		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:722)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onStateChange(DefaultPooledConnectionProvider.java:207)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnection.onStateChange(DefaultPooledConnectionProvider.java:468)
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:746)
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333)
+		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:455)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-07-01 19:51:07.039 [MEK0GYQw8QkY2GO] ERROR [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Token JWT não foi obtido ou está vazio após parsing.
+2025-07-01 19:51:07.040 [MEK0GYQw8QkY2GO] ERROR [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Falha ao obter token JWT. Não será possível buscar tarefas.
+2025-07-01 19:52:28.702 [               ] ERROR [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2025-07-01 19:53:01.171 [               ] ERROR [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2025-07-01 19:53:27.155 [YO2c4CsmuMaG_E4] ERROR [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Token JWT não foi obtido ou está vazio após parsing.
+2025-07-01 19:53:27.155 [YO2c4CsmuMaG_E4] ERROR [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Falha ao obter token JWT. Não será possível buscar tarefas.

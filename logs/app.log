@@ -1,0 +1,324 @@
+2025-07-01 18:53:36.339 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Starting SchedulerServiceApplication using Java 21.0.7 with PID 12012 (C:\Users\wagner\Downloads\schedulerService\schedulerService\target\classes started by wagner in C:\Users\wagner\Downloads\schedulerService\schedulerService)
+2025-07-01 18:53:36.342 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-07-01 18:53:38.029 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01 18:53:38.048 [               ]  INFO [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01 18:53:38.049 [               ]  INFO [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01 18:53:38.136 [               ]  INFO [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01 18:53:38.138 [               ]  INFO [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1743 ms
+2025-07-01 18:53:39.185 [               ]  WARN [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-01 18:53:39.206 [               ]  INFO [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-01 18:53:39.232 [               ] ERROR [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-01 18:55:55.312 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Starting SchedulerServiceApplication using Java 21.0.7 with PID 8088 (C:\Users\wagner\Downloads\schedulerService\schedulerService\target\classes started by wagner in C:\Users\wagner\Downloads\schedulerService\schedulerService)
+2025-07-01 18:55:55.315 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-07-01 18:55:56.983 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-01 18:55:57.017 [               ]  INFO [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01 18:55:57.019 [               ]  INFO [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01 18:55:57.143 [               ]  INFO [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01 18:55:57.146 [               ]  INFO [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1767 ms
+2025-07-01 18:55:58.408 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-01 18:55:58.424 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Started SchedulerServiceApplication in 3.951 seconds (process running for 4.396)
+2025-07-01 18:55:58.432 [ucYKaUWGywS2mQ8]  INFO [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Iniciando verificação de tarefas para alertas...
+2025-07-01 18:56:07.064 [ucYKaUWGywS2mQ8] ERROR [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Falha ao obter token JWT. Não será possível buscar tarefas.
+2025-07-01 19:10:58.431 [46u2OQwqcse0QA6]  INFO [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Iniciando verificação de tarefas para alertas...
+2025-07-01 19:11:05.050 [46u2OQwqcse0QA6] ERROR [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Falha ao obter token JWT. Não será possível buscar tarefas.
+2025-07-01 19:36:09.463 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Starting SchedulerServiceApplication using Java 21.0.7 with PID 3980 (C:\Users\wagner\Downloads\schedulerService\schedulerService\target\classes started by wagner in C:\Users\wagner\Downloads\schedulerService\schedulerService)
+2025-07-01 19:36:09.466 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-07-01 19:36:10.905 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-01 19:36:10.933 [               ]  INFO [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01 19:36:10.934 [               ]  INFO [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01 19:36:11.006 [               ]  INFO [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01 19:36:11.007 [               ]  INFO [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1487 ms
+2025-07-01 19:36:12.055 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-01 19:36:12.070 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Started SchedulerServiceApplication in 3.261 seconds (process running for 3.649)
+2025-07-01 19:36:12.076 [w8o4y8sikec8o6W]  INFO [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Iniciando verificação de tarefas para alertas...
+2025-07-01 19:36:12.077 [w8o4y8sikec8o6W]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Tentando autenticar na URL: http://localhost:8080//auth/login
+2025-07-01 19:36:19.405 [w8o4y8sikec8o6W]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Resposta bruta da autenticação: null
+2025-07-01 19:36:19.406 [w8o4y8sikec8o6W]  WARN [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Resposta de autenticação vazia ou nula.
+2025-07-01 19:36:19.406 [w8o4y8sikec8o6W] ERROR [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Token JWT não foi obtido ou está vazio após parsing.
+2025-07-01 19:36:19.406 [w8o4y8sikec8o6W] ERROR [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Falha ao obter token JWT. Não será possível buscar tarefas.
+2025-07-01 19:36:58.046 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Starting SchedulerServiceApplication using Java 21.0.7 with PID 18060 (C:\Users\wagner\Downloads\schedulerService\schedulerService\target\classes started by wagner in C:\Users\wagner\Downloads\schedulerService\schedulerService)
+2025-07-01 19:36:58.049 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-07-01 19:36:59.361 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-01 19:36:59.386 [               ]  INFO [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01 19:36:59.387 [               ]  INFO [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01 19:36:59.456 [               ]  INFO [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01 19:36:59.458 [               ]  INFO [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2025-07-01 19:37:00.398 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-01 19:37:00.411 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Started SchedulerServiceApplication in 2.986 seconds (process running for 3.363)
+2025-07-01 19:37:00.418 [EmSO6UgsOocmIQc]  INFO [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Iniciando verificação de tarefas para alertas...
+2025-07-01 19:37:00.419 [EmSO6UgsOocmIQc]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Tentando autenticar na URL: http://localhost:8080/api/auth/login
+2025-07-01 19:37:00.966 [EmSO6UgsOocmIQc]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Resposta bruta da autenticação: {"jwt":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbldhc2MiLCJpYXQiOjE3NTE0MDk0MjAsImV4cCI6MTc1MTQ0NTQyMH0.pVGGGLBhgySukiPl79yVrLPrTb5h8InJO2cI7288bHs"}
+2025-07-01 19:37:00.976 [EmSO6UgsOocmIQc]  WARN [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Resposta de autenticação não contém 'token' ou 'accessToken'. Tentando usar resposta bruta como token.
+2025-07-01 19:37:00.977 [EmSO6UgsOocmIQc]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : JWT Token obtido. Início: {"jwt":"eyJhbGciOiJI...
+2025-07-01 19:37:01.108 [EmSO6UgsOocmIQc] ERROR [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Erro de resposta do WebClient ao buscar tarefas (Status: 200 OK): 
+
+org.springframework.web.reactive.function.client.WebClientResponseException: 200 OK from GET http://localhost:8080/tasks, but response failed with cause: org.springframework.web.reactive.function.UnsupportedMediaTypeException: Content type 'text/html;charset=UTF-8' not supported for bodyType=com.wasc.schedulerService.model.Task
+	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:337)
+	at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106)
+	at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onError(FluxOnErrorReturn.java:199)
+	at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onError(FluxDefaultIfEmpty.java:156)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onError(FluxOnAssembly.java:544)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onError(FluxMapFuseable.java:142)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onError(FluxMapFuseable.java:340)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onError(FluxFilterFuseable.java:382)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onError(MonoCollect.java:135)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.Operators.error(Operators.java:198)
+	at reactor.netty.channel.FluxReceive.startReceiver(FluxReceive.java:189)
+	at reactor.netty.channel.FluxReceive.subscribe(FluxReceive.java:145)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:68)
+	at reactor.netty.ByteBufFlux.subscribe(ByteBufFlux.java:340)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onError(FluxOnAssembly.java:544)
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onError(FluxConcatArray.java:186)
+	at reactor.core.publisher.Operators.error(Operators.java:198)
+	at reactor.core.publisher.FluxError.subscribe(FluxError.java:43)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8891)
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:238)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89)
+	at reactor.core.publisher.FluxTakeWhile$TakeWhileSubscriber.onComplete(FluxTakeWhile.java:122)
+	at reactor.core.publisher.FluxTakeWhile$TakeWhileSubscriber.onNext(FluxTakeWhile.java:96)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:377)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:435)
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:843)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:104)
+		at reactor.core.publisher.Mono.block(Mono.java:1779)
+		at com.wasc.schedulerService.api.TaskApiClient.getTasksByDueDateRange(TaskApiClient.java:163)
+		at com.wasc.schedulerService.service.TaskAlertScheduler.checkTasksAndSendAlerts(TaskAlertScheduler.java:42)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+		at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+		at io.micrometer.observation.Observation.observe(Observation.java:498)
+		at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+		at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85)
+		at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at net.wenzuo.atom.core.core.TraceIdTaskDecorator.lambda$decorate$0(TraceIdTaskDecorator.java:28)
+		at org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler$DelegatingRunnableScheduledFuture.run(ThreadPoolTaskScheduler.java:508)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		... 1 common frames omitted
+Caused by: org.springframework.web.reactive.function.UnsupportedMediaTypeException: Content type 'text/html;charset=UTF-8' not supported for bodyType=com.wasc.schedulerService.model.Task
+	at org.springframework.web.reactive.function.BodyExtractors.readWithMessageReaders(BodyExtractors.java:205)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Body from GET http://localhost:8080/tasks?dueDateFrom=2025-07-01&dueDateTo=2025-07-02 [DefaultClientResponse]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.BodyExtractors.readWithMessageReaders(BodyExtractors.java:205)
+		at org.springframework.web.reactive.function.BodyExtractors.lambda$toFlux$5(BodyExtractors.java:113)
+		at org.springframework.web.reactive.function.client.DefaultClientResponse.body(DefaultClientResponse.java:135)
+		at org.springframework.web.reactive.function.client.DefaultClientResponse.bodyToFlux(DefaultClientResponse.java:162)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.lambda$bodyToFlux$4(DefaultWebClient.java:597)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onNext(MonoFlatMapMany.java:163)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+		at reactor.core.publisher.FluxDoFinally$DoFinallySubscriber.onNext(FluxDoFinally.java:113)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:251)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2570)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:136)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onSubscribeInner(MonoFlatMapMany.java:150)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onSubscribe(MonoFlatMapMany.java:246)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onSubscribe(FluxContextWrite.java:101)
+		at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+		at reactor.core.publisher.Flux.subscribe(Flux.java:8891)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onNext(MonoFlatMapMany.java:196)
+		at reactor.core.publisher.SerializedSubscriber.onNext(SerializedSubscriber.java:99)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onNext(FluxRetryWhen.java:178)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.success(MonoCreate.java:176)
+		at reactor.netty.http.client.HttpClientConnect$HttpIOHandlerObserver.onStateChange(HttpClientConnect.java:449)
+		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:722)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onStateChange(DefaultPooledConnectionProvider.java:207)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnection.onStateChange(DefaultPooledConnectionProvider.java:468)
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:746)
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333)
+		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:455)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-07-01 19:37:01.119 [EmSO6UgsOocmIQc]  INFO [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Nenhuma tarefa encontrada para hoje ou amanhã.
+2025-07-01 19:50:57.467 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Starting SchedulerServiceApplication using Java 21.0.7 with PID 15440 (C:\Users\wagner\Downloads\schedulerService\schedulerService\target\classes started by wagner in C:\Users\wagner\Downloads\schedulerService\schedulerService)
+2025-07-01 19:50:57.469 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-07-01 19:50:58.866 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-01 19:50:58.890 [               ]  INFO [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01 19:50:58.890 [               ]  INFO [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01 19:50:58.964 [               ]  INFO [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01 19:50:58.965 [               ]  INFO [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1432 ms
+2025-07-01 19:50:59.898 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-01 19:50:59.914 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Started SchedulerServiceApplication in 3.083 seconds (process running for 3.463)
+2025-07-01 19:50:59.921 [MEK0GYQw8QkY2GO]  INFO [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Iniciando verificação de tarefas para alertas...
+2025-07-01 19:50:59.922 [MEK0GYQw8QkY2GO]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Tentando autenticar na URL: http://localhost:8080/apiauth/login
+2025-07-01 19:51:07.039 [MEK0GYQw8QkY2GO]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Resposta bruta da autenticação: null
+2025-07-01 19:51:07.039 [MEK0GYQw8QkY2GO]  WARN [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Resposta de autenticação vazia ou nula.
+2025-07-01 19:51:07.039 [MEK0GYQw8QkY2GO] ERROR [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Token JWT não foi obtido ou está vazio após parsing.
+2025-07-01 19:51:07.040 [MEK0GYQw8QkY2GO] ERROR [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Falha ao obter token JWT. Não será possível buscar tarefas.
+2025-07-01 19:52:26.335 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Starting SchedulerServiceApplication using Java 21.0.7 with PID 13344 (C:\Users\wagner\Downloads\schedulerService\schedulerService\target\classes started by wagner in C:\Users\wagner\Downloads\schedulerService\schedulerService)
+2025-07-01 19:52:26.338 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-07-01 19:52:27.603 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-01 19:52:27.629 [               ]  INFO [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01 19:52:27.630 [               ]  INFO [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01 19:52:27.695 [               ]  INFO [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01 19:52:27.696 [               ]  INFO [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1303 ms
+2025-07-01 19:52:28.647 [               ]  WARN [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-01 19:52:28.672 [               ]  INFO [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-01 19:52:28.702 [               ] ERROR [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2025-07-01 19:52:58.920 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Starting SchedulerServiceApplication using Java 21.0.7 with PID 17492 (C:\Users\wagner\Downloads\schedulerService\schedulerService\target\classes started by wagner in C:\Users\wagner\Downloads\schedulerService\schedulerService)
+2025-07-01 19:52:58.922 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-07-01 19:53:00.154 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-01 19:53:00.174 [               ]  INFO [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01 19:53:00.174 [               ]  INFO [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01 19:53:00.244 [               ]  INFO [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01 19:53:00.245 [               ]  INFO [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1268 ms
+2025-07-01 19:53:01.135 [               ]  WARN [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-01 19:53:01.152 [               ]  INFO [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-01 19:53:01.171 [               ] ERROR [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2025-07-01 19:53:17.723 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Starting SchedulerServiceApplication using Java 21.0.7 with PID 13632 (C:\Users\wagner\Downloads\schedulerService\schedulerService\target\classes started by wagner in C:\Users\wagner\Downloads\schedulerService\schedulerService)
+2025-07-01 19:53:17.725 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-07-01 19:53:18.961 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8181 (http)
+2025-07-01 19:53:18.979 [               ]  INFO [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01 19:53:18.980 [               ]  INFO [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01 19:53:19.045 [               ]  INFO [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01 19:53:19.046 [               ]  INFO [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1265 ms
+2025-07-01 19:53:19.872 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8181 (http) with context path '/'
+2025-07-01 19:53:19.884 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Started SchedulerServiceApplication in 2.809 seconds (process running for 3.218)
+2025-07-01 19:53:19.890 [YO2c4CsmuMaG_E4]  INFO [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Iniciando verificação de tarefas para alertas...
+2025-07-01 19:53:19.890 [YO2c4CsmuMaG_E4]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Tentando autenticar na URL: http://localhost:8080/api/tarefas/auth/login
+2025-07-01 19:53:27.154 [YO2c4CsmuMaG_E4]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Resposta bruta da autenticação: null
+2025-07-01 19:53:27.155 [YO2c4CsmuMaG_E4]  WARN [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Resposta de autenticação vazia ou nula.
+2025-07-01 19:53:27.155 [YO2c4CsmuMaG_E4] ERROR [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Token JWT não foi obtido ou está vazio após parsing.
+2025-07-01 19:53:27.155 [YO2c4CsmuMaG_E4] ERROR [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Falha ao obter token JWT. Não será possível buscar tarefas.
+2025-07-01 19:55:35.725 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Starting SchedulerServiceApplication using Java 21.0.7 with PID 10780 (C:\Users\wagner\Downloads\schedulerService\schedulerService\target\classes started by wagner in C:\Users\wagner\Downloads\schedulerService\schedulerService)
+2025-07-01 19:55:35.728 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-07-01 19:55:37.017 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8181 (http)
+2025-07-01 19:55:37.035 [               ]  INFO [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01 19:55:37.035 [               ]  INFO [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01 19:55:37.106 [               ]  INFO [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01 19:55:37.107 [               ]  INFO [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1312 ms
+2025-07-01 19:55:38.031 [               ]  INFO [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8181 (http) with context path '/'
+2025-07-01 19:55:38.044 [               ]  INFO [           main] c.w.s.SchedulerServiceApplication        : Started SchedulerServiceApplication in 2.99 seconds (process running for 3.382)
+2025-07-01 19:55:38.053 [WQuKEQ2oIqWUi4i]  INFO [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Iniciando verificação de tarefas para alertas...
+2025-07-01 19:55:38.053 [WQuKEQ2oIqWUi4i]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Tentando autenticar na URL: http://localhost:8080/api/auth/login
+2025-07-01 19:55:38.609 [WQuKEQ2oIqWUi4i]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Resposta bruta da autenticação: {"jwt":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbldhc2MiLCJpYXQiOjE3NTE0MTA1MzgsImV4cCI6MTc1MTQ0NjUzOH0.aQgVnZUpe-nJ6XcHoe8AHEWs6S6lL0lZzNgVBEJ7yhA"}
+2025-07-01 19:55:38.618 [WQuKEQ2oIqWUi4i]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Token JWT encontrado na chave 'jwt'.
+2025-07-01 19:55:38.618 [WQuKEQ2oIqWUi4i]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : JWT Token obtido. Início: eyJhbGciOiJIUzI1NiJ9...
+2025-07-01 19:55:38.619 [WQuKEQ2oIqWUi4i]  INFO [cheduler-task-1] c.w.schedulerService.api.TaskApiClient   : Buscando tarefas na URL: http://localhost:8080/api/tarefas?dueDateFrom=2025-07-01&dueDateTo=2025-07-02
+2025-07-01 19:55:38.861 [WQuKEQ2oIqWUi4i]  INFO [cheduler-task-1] c.w.s.service.TaskAlertScheduler         : Nenhuma tarefa encontrada para hoje ou amanhã.
