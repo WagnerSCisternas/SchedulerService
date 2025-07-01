@@ -37,7 +37,7 @@ COPY --from=build /app/target/schedulerService-0.0.1-SNAPSHOT.jar app.jar
 # Expõe a porta que sua aplicação Spring Boot usará.
 # Por padrão, o Spring Boot usa a porta 8080. Mesmo que seja um Background Worker
 # sem endpoints web expostos publicamente, é uma boa prática declarar a porta.
-EXPOSE 8080
+EXPOSE 8181
 
 # Comando para rodar a aplicação Spring Boot quando o contêiner for iniciado.
 # O 'java -jar' executa o JAR como um aplicativo Spring Boot.
