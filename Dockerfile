@@ -22,7 +22,7 @@ RUN mvn clean package -DskipTests
 # Estágio de Execução: Cria uma imagem final menor para rodar a aplicação
 # Usamos uma imagem base do OpenJDK que contém apenas o JRE (Java Runtime Environment)
 # para ser mais leve, já que não precisamos do compilador em tempo de execução.
-FROM eclipse-temurin:21-jre-focal
+FROM eclipse-temurin:21-jre-focal-slim
 
 # Define o diretório de trabalho dentro do contêiner para este estágio.
 WORKDIR /app
