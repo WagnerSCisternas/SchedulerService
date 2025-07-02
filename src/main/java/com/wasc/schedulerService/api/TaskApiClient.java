@@ -119,7 +119,8 @@ public class TaskApiClient {
             }
 
             if (this.jwtToken != null && !this.jwtToken.isEmpty()) {
-                log.info("JWT Token obtido. Início: {}...", this.jwtToken.substring(0, Math.min(this.jwtToken.length(), 20)));
+            	log.info("JWT Token obtido. Início: 'hidden'");
+            	//log.info("JWT Token obtido. Início: {}...", this.jwtToken.substring(0, Math.min(this.jwtToken.length(), 20)));
                 return this.jwtToken;
             } else {
                 log.error("Token JWT não foi obtido ou está vazio após parsing.");
